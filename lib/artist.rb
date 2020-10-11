@@ -26,8 +26,8 @@ class Artist
     if artist
       artist
     else
-      
-    
+
+
   end
 
 end
