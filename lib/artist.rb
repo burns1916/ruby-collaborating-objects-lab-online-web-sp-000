@@ -20,6 +20,7 @@ class Artist
 
   def save
     self.class.all << self
+  end
 
   def self.find_or_create_by_name(artist_name)
     artist = self.all.find{|artist| artist.name == artist_name}
