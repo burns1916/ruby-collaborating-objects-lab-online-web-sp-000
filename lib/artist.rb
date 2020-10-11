@@ -27,7 +27,7 @@ class Artist
       artist
     else
 
-
+    end
   end
 
 end
